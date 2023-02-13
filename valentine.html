@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Valentine's Page </title>
+<meta charset="utf-8">
+<!--My valentine's page, Victoria Westra, February 14,2023-->
+<style>
+h1{text-align:center;
+color:#FDDFF6;
+ font-size:38pt;
+ background-color:#FE5BB0;
+ border:10px dashed #FDDFF6}
+ 
+h3{text-align:center;
+color:#EF6492;
+ font-size:22pt;
+ background-color:#FABDD1;}
+
+h4{text-align:center;
+color:#FABDD1;
+ font-size:12pt;
+ background-color:#EF6492}
+
+
+blockquote{text-align: center;
+color:#FFE1EB; }
+
+div{border: dotted 5px #FFE1EB;
+background-color:#FD6396}
+ 
+ol{color:#F72D9C;
+ font-size:15pt;
+ background-color:#FBBEDF;
+  border:dotted 4px #F72D9C;}
+
+body{
+background-color:#F7A3D1;
+}
+h2{color:#F72D9C;
+ font-size:25pt;
+ background-color:#FBBEDF;
+ border:solid 4px #F72D9C; }
+ 
+h5{text-align: center;
+color:#FABDD1;
+ font-size:18pt;
+ background-color:#FC2E81;
+}
+.heart:hover{transform:rotate(180deg);
+text-align:center;
+ }
+p{text-align:center;
+border: dotted 5px #FFE1EB;
+}
+</style>
+<script>
+function swap(x,y){
+a=document.getElementById(x).src;
+
+document.getElementById(x).src=document.getElementById(y).src;
+
+document.getElementById(y).src=a;
+}
+</script>
+
+</head>
+<body>
+<h1>To My Valentine</h1>
+<h2>10 Reasons why I love you:</h2>
+<ol>
+<li>You are really <b> cute!</b> </li>
+<li>You make me <em><b>smile!</b></em> </li>
+<li>You love to go on <b>walks</b> with me.</li>
+<li>You are really <b>funny.</b> </li>
+<li>We <em>share<b> food</b></em> with each other. </li>
+<li>You like to <em>watch movies</em> with me! </li>
+<li>You make me <b>happy.</b></li>
+<li>You make <em>funny faces</em></li>
+<li>Your<em><b> fur </b>is <b>soft</b></em> </li>
+<li>I love your <em>long<b> nose</b></em> </li>
+</ol>
+
+<p class="heart">
+<img src="valentine.jpg" alt="love" height="250" width="auto">
+</p>
+<div>
+<h3>A poem that makes me think of you: </h3>
+<h5>"How Do I Love Thee? (Sonnet 43)" by Elizabeth Barrett Browning</h5>
+
+<blockquote>
+How do I love thee? Let me count the ways.<br>
+I love thee to the depth and breadth and height<br>
+My soul can reach, when feeling out of sight<br>
+For the ends of being and ideal grace.<br>
+I love thee to the level of every day's<br>
+Most quiet need, by sun and candle-light.<br>
+I love thee freely, as men strive for right.<br>
+I love thee purely, as they turn from praise.<br>
+I love thee with the passion put to use<br>
+In my old griefs, and with my childhood's faith.<br>
+I love thee with a love I seemed to lose<br>
+With my lost saints. I love thee with the breath,<br>
+Smiles, tears, of all my life; and, if God choose,<br>
+I shall but love thee better after death.<br><br>
+</blockquote>
+</div>
+<h4><a href="https://poets.org/poem/how-do-i-love-thee-sonnet-43"> Go to
+Browning's Poem</a> </h4>
+<p>
+<img onmouseover="swap('love','lovegreen')"
+onmouseout="swap('lovegreen','love')" id="lovegreen" src="lovegreen.jpg"
+alt="lovegreen">
+
+<img id="love" src="loveyou.jpg" alt="love">
+</p>
+
+</body>
+</html>
