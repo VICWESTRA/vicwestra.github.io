@@ -1,1 +1,1 @@
-# vicwestra.github.io
+# VICWESTRA.github.io
